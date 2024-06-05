@@ -1,16 +1,14 @@
 /* colores */
-$primary: aqua;
-$secondary: red;
+$primary-color: #333;
+$secondary-color: #e7c8c8;
 
 /* estructura */
-$spacer: 1.5rem;
+$header-padding: 1rem;
 
 /* efectos */
-$enable-shadows: true;
-$enable-gradients: true;
-$bordes-locos: 1px 1px 3px 1px;
+$box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 
 /* Grilla */
-$grid-breakpoints: (xs: 0, sm:576px, md:768px, lg:992px, xl:1200px, xxl:1600px);
+$grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1600px);
 
 

@@ -1,2 +1,12 @@
 @import "vars";
 @import "../node_modules/bootstrap/scss/bootstrap";
+
+// Estilo para el fondo del header
+.bg-light-green {
+    background-color: #15853c !important;
+  }
+  
+  // Estilo para centrar el logo
+  .logo-container {
+    text-align: center;
+  }
