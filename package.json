@@ -9,7 +9,7 @@
     "buildCSS": "sass scss/estilos.scss css/estilos.min.css --style compressed",
     "start": "sass --watch scss/estilos.scss css/estilos.min.css",
     "copyHTML": "copyfiles *.html dist",
-    "copyAssets":"copyfiles assets/*.png dist && copyfiles assets/*.jpg dist",
+    "copyAssets":"copyfiles assets/*.png dist && copyfiles assets/*.jpg dist && copyfiles assets/*.webp dist",
     "copyCSS":"copyfiles css/*.css dist"
   },
   "keywords": [],

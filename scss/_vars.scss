@@ -1,14 +1,37 @@
 /* colores */
+
+$carousel-caption-color:black;
 $primary-color: #333;
 $secondary-color: #e7c8c8;
+$carousel-control-color: black;
+$carousel-indicator-active-bg:black;
 
 /* estructura */
 $header-padding: 1rem;
+$carousel-control-width:15%;
+$carousel-indicator-width:           30px;
+$carousel-indicator-height:          3px;
+$carousel-indicator-hit-area-height: 10px;
+$carousel-indicator-spacer:          3px;
+$carousel-indicator-opacity:         .5;
+$carousel-caption-width:             70%;
+$carousel-caption-padding-y:         1.25rem;
+$carousel-caption-spacer:            1.25rem;
 
+$carousel-control-icon-width:        2rem;
 /* efectos */
 $box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-
+$carousel-control-opacity:.5;
+$carousel-control-hover-opacity: .9;
+$carousel-control-transition:        opacity .15s ease;
+$carousel-indicator-active-opacity:  1;
+$carousel-indicator-transition:      opacity .6s ease;
+$carousel-transition-duration:       .6s;
+$carousel-transition: transform $carousel-transition-duration ease-in-out;
 /* Grilla */
 $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1600px);
 
+
+$carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+$carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
 
