@@ -1,24 +1,26 @@
 /* colores */
-
+$border-color: #ccc;
+$box-shadow-color: rgba(0, 0, 0, 0.1);
 $carousel-caption-color:black;
-$primary-color: #333;
-$secondary-color: #e7c8c8;
+$primary-color: #0abd49;
+$secondary-color: #0abd49;
 $carousel-control-color: black;
 $carousel-indicator-active-bg:black;
 
 /* estructura */
 $header-padding: 1rem;
 $carousel-control-width:15%;
-$carousel-indicator-width:           30px;
+$carousel-indicator-width:           50px;
 $carousel-indicator-height:          3px;
 $carousel-indicator-hit-area-height: 10px;
 $carousel-indicator-spacer:          3px;
 $carousel-indicator-opacity:         .5;
-$carousel-caption-width:             70%;
-$carousel-caption-padding-y:         1.25rem;
-$carousel-caption-spacer:            1.25rem;
-
 $carousel-control-icon-width:        2rem;
+$form-padding: 20px;
+$form-margin: 40px;
+$form-border-width: 1px;
+$form-border-radius: 10px;
+$form-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 /* efectos */
 $box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
 $carousel-control-opacity:.5;
@@ -28,10 +30,22 @@ $carousel-indicator-active-opacity:  1;
 $carousel-indicator-transition:      opacity .6s ease;
 $carousel-transition-duration:       .6s;
 $carousel-transition: transform $carousel-transition-duration ease-in-out;
+$input-padding: 10px;
+$input-margin-bottom: 20px;
+$input-border-width: 1px;
+$input-border-radius: 5px;
+$input-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+$button-padding: 10px;
+$button-margin-bottom: 20px;
+$button-border-width: 1px;
+$button-border-radius: 5px;
+$button-box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+$button-color: #4CAF50;
+$button-hover-color: #3e8e41;
 /* Grilla */
 $grid-breakpoints: (xs: 0, sm: 576px, md: 768px, lg: 992px, xl: 1200px, xxl: 1600px);
-
-
 $carousel-control-prev-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
 $carousel-control-next-icon-bg:      url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='#{$carousel-control-color}'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+
+
 
