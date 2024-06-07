@@ -11848,65 +11848,6 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
-/* Estilos para el carrusel */
-.carousel {
-  margin-bottom: 60px;
-}
-.carousel .carousel-inner .carousel-item img {
-  height: 300px;
-  object-fit: cover;
-  width: 300px;
-  margin: 0 auto;
-}
-.carousel .carousel-caption {
-  color: black;
-  width: 70%;
-  padding-top: 1.25rem;
-  padding-bottom: 1.25rem;
-  background-color: rgba(255, 0, 0, 0.7);
-  border-radius: 5px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-}
-.carousel .carousel-control-prev,
-.carousel .carousel-control-next {
-  width: 15%;
-  opacity: 0.5;
-}
-.carousel .carousel-control-prev:hover,
-.carousel .carousel-control-next:hover {
-  opacity: 0.9;
-}
-.carousel .carousel-control-prev-icon {
-  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
-}
-.carousel .carousel-control-next-icon {
-  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
-}
-.carousel .carousel-indicators button {
-  width: 50px;
-  height: 3px;
-  border-radius: 3px;
-  background-color: black;
-  opacity: 0.5;
-  margin: 3px;
-}
-.carousel .carousel-indicators button.active {
-  opacity: 1;
-}
-
-/* h1 */
-h1, .h1 {
-  font-size: 20px;
-  text-align: center;
-  margin-top: 50px;
-  margin-bottom: 20px;
-}
-
-.h1-pp {
-  font-size: 40px;
-}
-
-/* Estilos para el navbar */
 .navbar {
   background-color: #ffffff;
   padding: 20px;
@@ -11994,10 +11935,6 @@ h1, .h1 {
   color: #fff;
 }
 
-.fondo {
-  background-color: #fef4a0;
-}
-
 /* cards */
 .card-img-top {
   margin: 0 auto;
@@ -12020,6 +11957,52 @@ h1, .h1 {
 
 .card {
   border: 3px solid #f6cb48;
+}
+
+/* Estilos para el carrusel */
+.carousel .carousel-inner .carousel-item img {
+  height: 300px;
+  object-fit: cover;
+  width: 300px;
+  margin: 0 auto;
+}
+.carousel .carousel {
+  margin-bottom: 60px;
+}
+.carousel .carousel-caption {
+  color: black;
+  width: 70%;
+  padding-top: 1.25rem;
+  padding-bottom: 1.25rem;
+  background-color: rgba(255, 0, 0, 0.7);
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+.carousel .carousel-control-prev,
+.carousel .carousel-control-next {
+  width: 15%;
+  opacity: 0.5;
+}
+.carousel .carousel-control-prev:hover,
+.carousel .carousel-control-next:hover {
+  opacity: 0.9;
+}
+.carousel .carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'><path d='M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z'/></svg>");
+}
+.carousel .carousel-control-next-icon {
+  background-image: url("data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='black'><path d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/></svg>");
+}
+.carousel .carousel-indicators button {
+  width: 50px;
+  height: 3px;
+  border-radius: 3px;
+  background-color: black;
+  opacity: 0.5;
+  margin: 3px;
+}
+.carousel .carousel-indicators button.active {
+  opacity: 1;
 }
 
 form {
@@ -12051,6 +12034,62 @@ form button[type=submit] {
 }
 form button[type=submit]:hover {
   background-color: #3e8e41;
+}
+
+/* Asegúrate de tener el reset de márgenes y paddings */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  height: 100%;
+}
+
+.bodyFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh !important;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 90px;
+  background-color: #4CAF50;
+  text-align: center;
+}
+
+body {
+  position: relative;
+}
+
+/* h1 */
+h1, .h1 {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+
+.h1-pp {
+  font-size: 40px;
+}
+
+.fondo {
+  background-color: #fef4a0;
 }
 
 @media (max-width: 767px) {
@@ -12092,6 +12131,45 @@ form button[type=submit]:hover {
     font-weight: bold;
   }
 }
+/* Estilos para la página de detalle de productos */
+.product-detail .product-image img {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  margin: 0 auto;
+}
+.product-detail .product-info h1, .product-detail .product-info .h1 {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 20px;
+}
+.product-detail .product-info p {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.product-detail .product-price {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+.product-detail .product-description {
+  font-size: 18px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.product-detail .product-actions button[type=submit] {
+  width: 100%;
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
+
 @media (min-width: 768px) {
   .card {
     display: flex;
@@ -12156,14 +12234,6 @@ form button[type=submit]:hover {
     font-size: 16px;
     font-weight: normal;
   }
-}
-footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 90px;
-  background-color: #0abd49;
-  text-align: center;
 }
 
 /*# sourceMappingURL=estilos.min.css.map */

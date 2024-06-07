@@ -1,0 +1,36 @@
+// Estilos para el formulario
+form {
+    background-color: white;
+      max-width: 400px;
+      margin: 0 auto;
+      padding: 20px;
+      border: 1px solid $primary-color;
+      border-radius: 10px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    
+      // Estilos para los campos de entrada
+      input[type="text"],
+      input[type="email"],
+      textarea {
+        width: 100%;
+        padding: 10px;
+        margin-bottom: 20px;
+        border: 1px solid #ccc;
+        border-radius: 5px;
+      }
+    
+      // Estilos para el botón de enviar
+      button[type="submit"] {
+        width: 100%;
+        padding: 10px;
+        background-color: #4CAF50;
+        color: #fff;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    
+        &:hover {
+          background-color: #3e8e41;
+        }
+      }
+    }

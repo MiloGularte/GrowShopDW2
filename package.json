@@ -11,7 +11,7 @@
     "copyHTML": "copyfiles *.html dist",
     "copyAssets":"copyfiles assets/*.png dist && copyfiles assets/*.jpg dist && copyfiles assets/*.webp dist",
     "copyCSS":"copyfiles css/*.css dist",
-    "copyJS":"copyfiles *.js dist"
+    "copyJS": "copyfiles  -u 1 js/** dist"
   },
   "keywords": [],
   "author": "",

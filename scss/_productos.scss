@@ -1,0 +1,67 @@
+/* Estilos para el carrusel */
+.carousel {
+
+    .carousel-inner {
+      .carousel-item {
+        img { 
+            
+          height: 300px;
+          object-fit: cover;
+           width: 300px;
+          margin: 0 auto;
+        }
+      }
+    }
+
+    .carousel{
+        margin-bottom: 60px;
+    }
+
+
+
+   
+    .carousel-caption {
+      color: $carousel-caption-color;
+      width: $carousel-caption-width;
+      padding-top: $carousel-caption-padding-y;
+      padding-bottom: $carousel-caption-padding-y;
+      background-color: rgba(255, 0, 0, 0.7);
+      border-radius: 5px;
+      box-shadow: $box-shadow;
+    }
+  
+    .carousel-control-prev,
+    .carousel-control-next {
+      width: $carousel-control-width;
+      opacity: $carousel-control-opacity;
+  
+      &:hover {
+        opacity: $carousel-control-hover-opacity;
+      }
+    }
+  
+    .carousel-control-prev-icon {
+      background-image: $carousel-control-prev-icon-bg;
+    }
+  
+    .carousel-control-next-icon {
+      background-image: $carousel-control-next-icon-bg;
+    }
+  
+    .carousel-indicators {
+      button {
+        width: $carousel-indicator-width;
+        height: $carousel-indicator-height;
+        border-radius: $carousel-indicator-height;
+        background-color: $carousel-indicator-active-bg;
+        opacity: $carousel-indicator-opacity;
+        margin: $carousel-indicator-spacer;
+  
+        &.active {
+          opacity: $carousel-indicator-active-opacity;
+        }
+      }
+    }
+  }
+
+  
